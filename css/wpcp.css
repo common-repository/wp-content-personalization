@@ -1,0 +1,45 @@
+.q-block {
+	padding-bottom: 20px;
+}
+
+.q-text {
+	display: block;
+	padding-bottom: 1em;
+}
+
+.q-answers {
+	display: block;
+	margin: 5px 0;
+}
+
+.q-answers span {
+	display: inline-block;
+	padding: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	border-radius: 50px;
+	border: 2px solid #cccccc;
+	box-shadow: 0 2px 10px #ccc;
+}
+
+.q-answers span:hover {
+	border: 2px solid #006AB3;
+	box-shadow: 0 2px 10px #999;
+}
+
+.q-answers span.selected {
+	color:#006AB3;
+	border: 2px solid #006AB3;
+}
+
+.var-blocks {
+	margin-bottom: 1em;
+}
+
+.var-block {
+	display: none;
+}
+
+.var-block--default {
+	display: block;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "wp-content-personalization",
+  "version": "1.0.0",
+  "description": "WordPress Content Personalization Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "uglifyjs js/wpcp-foot.js -o js/wpcp-foot.min.js -c -m"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
